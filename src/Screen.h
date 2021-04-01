@@ -20,6 +20,8 @@ private:
 public:
     Screen();
     bool init();
+    void update();
+    void setPixel(int x, int y, Uint32 red, Uint32 green, Uint32 blue);
     bool processEvents();
     void close();
 };
